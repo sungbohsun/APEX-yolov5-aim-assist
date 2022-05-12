@@ -172,7 +172,7 @@ while True:
                     # lock(aims, mouse, top_x, top_y, len_x, len_y, args, pidx, pidy)
                     # print(x_center, y_center)
                     # win32api.SetCursorPos((int(top_x+x_center), int(top_y+y_center)))
-                    move_mouse(int(top_x+x_center), int(top_y+y_center))
+                    move_mouse(int(top_x+x_center)-960,int(top_y+y_center)-540)
 
 
         if args.show_window:
